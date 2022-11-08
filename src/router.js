@@ -3,6 +3,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Admin } from './pages/Admin';
 import { Login } from './pages/Login';
+import { Error } from './pages/Error';
 
 export const router = createBrowserRouter([
   {
@@ -16,5 +17,9 @@ export const router = createBrowserRouter([
   {
     path: '/admin',
     element: <Admin />,
+  },
+  {
+    path: '*',
+    element: <Error />,
   },
 ]);
