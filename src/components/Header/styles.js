@@ -20,7 +20,7 @@ export const MyHeader = styled.div`
 
 export const NavHeader = styled.nav`
   a {
-    padding-left: 20px;
+    padding: 0 20px;
     color: #222222;
     font-weight: 700;
     transition: ease-in-out 0.3s;
