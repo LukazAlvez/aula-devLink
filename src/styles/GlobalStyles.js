@@ -8,7 +8,7 @@ export const GlobalStyles = createGlobalStyle`
         font-family: sans-serif
     }
     body{
-        background: linear-gradient(#8711c1, #103783);
+        background: #32373B;
         min-height: 100vh;
     }
     button{

@@ -21,20 +21,20 @@ export const Container = styled.div`
   }
 
   .link {
-    color: #fff;
-    padding: 10px 10px;
-    background-color: #171738;
+    color: #32373b;
+    padding: 10px;
+    background-color: #f4b860;
     border-radius: 3px;
     transition: ease-in-out 0.3s;
+    font-weight: 600;
   }
 
   .link:hover {
     transform: scale(1.03);
-    background-color: #8ef9f3;
     color: #171738;
   }
 
-  @media (max-width: 520px) {
+  @media screen and (max-width: 520px) {
     h1 {
       font-size: 25px;
     }
