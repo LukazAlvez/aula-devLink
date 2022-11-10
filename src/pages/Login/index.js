@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { toast } from 'react-toastify';
 import { Logo } from '../../components/Logo';
+import { Input } from '../../components/Input';
 import { Main, Form } from './styles';
 
 import { auth } from '../../services/firebaseConection';
@@ -35,15 +36,15 @@ export const Login = () => {
     <Main>
       <Logo />
       <Form onSubmit={handleLogin}>
-        <input
+        <Input
           type='email'
           placeholder='Digite seu email...'
           value={email}
           onChange={e => {
             setEmail(e.target.value);
           }}
-        ></input>
-        <input
+        />
+        <Input
           type='password'
           placeholder='Digite sua senha...'
           autoComplete='on'
@@ -51,7 +52,7 @@ export const Login = () => {
           onChange={e => {
             setPassword(e.target.value);
           }}
-        ></input>
+        />
         <button type='submit'>Entrar</button>
       </Form>
     </Main>

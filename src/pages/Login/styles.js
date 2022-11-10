@@ -16,15 +16,8 @@ export const Form = styled.form`
   align-items: center;
   width: 90%;
   max-width: 600px;
+  margin-top: 35px;
 
-  input {
-    width: 100%;
-    outline: none;
-    border: 0;
-    border-radius: 3px;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
   button {
     width: 100%;
     padding: 10px;

@@ -9,6 +9,6 @@
 - [x] Criar Tela Home
 - [x] Criar Tela Login
 - [x] Conectar com firebase
+- [x] Criar sistema de login e logout
 - [] Criar Tela Admin
-- [] Criar sistema do admin
 - [] Subir o pojeto para web
