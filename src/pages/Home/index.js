@@ -49,7 +49,7 @@ export const Home = () => {
           <Social url={'https://www.linkedin.com/in/lucasalves2022'}>
             <FaLinkedin size={32} color='#fff' />
           </Social>
-          <Social url={'https://github.com/LukazAlve'}>
+          <Social url={'https://github.com/LukazAlvez'}>
             <FaGithub size={32} color='#fff' />
           </Social>
         </Icons>

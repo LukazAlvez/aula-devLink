@@ -12,5 +12,5 @@
 - [x] Criar CRUD
 - [x] Criar sistema de login e logout
 - [x] Criar Tela Admin
-- [] Criar tela cadastro de redes sociais
-- [] Subir o pojeto para web
+- [ ] Criar tela cadastro de redes sociais
+- [ ] Subir o pojeto para web
