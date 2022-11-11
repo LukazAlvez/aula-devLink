@@ -1,8 +1,12 @@
 import { LinkContainer } from './styles';
 
-export const Link = ({ children }) => {
+export const Links = ({ children, url, bg, color }) => {
   return (
-    <LinkContainer href='#' target='_blank'>
+    <LinkContainer
+      href={url}
+      target='_blank'
+      style={{ backgroundColor: bg, color: color }}
+    >
       {children}
     </LinkContainer>
   );

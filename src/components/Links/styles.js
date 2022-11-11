@@ -3,13 +3,14 @@ import styled from 'styled-components';
 export const LinkContainer = styled.a`
   padding: 10px;
   margin: 10px;
-  background-color: lightblue;
   max-width: 600px;
   width: 90%;
+  height: 60px;
   border-radius: 3px;
-  color: #171738;
   font-weight: 700;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: ease-in-out 0.2s;
 
   &:hover {

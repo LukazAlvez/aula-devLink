@@ -6,6 +6,21 @@ export const HomeContainer = styled.div`
   align-items: center;
   color: #fff;
   padding-top: 30px;
+  position: relative;
+  min-height: 100vh;
+
+  p {
+    margin-top: 40px;
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+    padding: 30px;
+  }
+  footer a {
+    color: #fff;
+  }
 `;
 
 export const Main = styled.main`
@@ -17,7 +32,7 @@ export const Main = styled.main`
   align-items: center;
 `;
 
-export const Footer = styled.footer`
+export const Icons = styled.div`
   display: flex;
   margin: 20px 0;
 `;

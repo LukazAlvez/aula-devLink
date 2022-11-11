@@ -19,7 +19,7 @@ export const Header = () => {
       </button>
       <NavHeader>
         <Link to='/admin'>Links</Link>
-        <Link to='/redes-sociai'>Redes Sociais</Link>
+        <Link to='/admin/redes-sociais'>Redes Sociais</Link>
       </NavHeader>
     </MyHeader>
   );

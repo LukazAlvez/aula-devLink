@@ -15,6 +15,7 @@ export const MyHeader = styled.div`
   button {
     background: none;
     border: none;
+    padding: 0 20px;
   }
 `;
 
