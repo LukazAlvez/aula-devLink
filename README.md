@@ -4,7 +4,7 @@
 
 - [x] Preparar ambiente
 - [x] Instalar dependencias
-- [x] Estroturar o projeto
+- [x] Estruturar o projeto
 - [x] Criar rotas
 - [x] Criar Tela Home
 - [x] Criar Tela Login
