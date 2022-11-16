@@ -13,3 +13,5 @@
 - [x] Criar sistema de login e logout
 - [x] Criar Tela Admin
 - [x] Subir o pojeto para web
+
+<img src='https://github.com/LukazAlvez/aula-devLink/blob/main/src/assets/1.gif'></img>
